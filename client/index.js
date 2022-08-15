@@ -119,6 +119,7 @@ const createStudent = async (studentName) => {
     error.innerText = err.response
       ? err.response.data.message
       : 'Request Timed Out';
+    alert(err.response.data.message)
   }
 };
 
@@ -137,6 +138,7 @@ const deleteTeacher = async (teacherId) => {
     error.innerText = err.response
       ? err.response.data.message
       : 'Request Timed Out';
+    alert(err.response.data.message)
   }
 };
 
@@ -153,6 +155,7 @@ const deleteMentee = async (menteeId, teacherId) => {
     error.innerText = err.response
       ? err.response.data.message
       : 'Request Timed Out';
+    alert(err.response.data.message)
   }
 };
 
@@ -171,6 +174,7 @@ const deleteUnassignedStudent = async (studentId) => {
     error.innerText = err.response
       ? err.response.data.message
       : 'Request Timed Out';
+    alert(err.response.data.message)
   }
 };
 
@@ -188,6 +192,7 @@ const makeTeacherAStudent = async (id) => {
     error.innerText = err.response
       ? err.response.data.message
       : 'Request Timed Out';
+    alert(err.response.data.message)
   }
 };
 
@@ -206,6 +211,7 @@ const makeMenteeATeacher = async (menteeId, teacherId) => {
     error.innerText = err.response
       ? err.response.data.message
       : 'Request Timed Out';
+    alert(err.response.data.message)
   }
 };
 
@@ -224,6 +230,7 @@ const makeUnassignedATeacher = async (id) => {
     error.innerText = err.response
       ? err.response.data.message
       : 'Request Timed Out';
+    alert(err.response.data.message)
   }
 };
 
@@ -242,6 +249,7 @@ const unassignMentee = async (menteeId, teacherId) => {
     error.innerText = err.response
       ? err.response.data.message
       : 'Request Timed Out';
+    alert(err.response.data.message)
   }
 };
 
@@ -262,6 +270,7 @@ const assignMentor = async (studentId, teacherId) => {
     error.innerText = err.response
       ? err.response.data.message
       : 'Request Timed Out';
+    alert(err.response.data.message)
   }
 };
 
