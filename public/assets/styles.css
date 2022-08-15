@@ -1,5 +1,6 @@
 body {
   font-family: verdana;
+  background-color: lavender;
 }
 #content {
   display: flex;
@@ -46,4 +47,41 @@ li > * {
 
 #error {
   color: red;
+}
+
+.promote {
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium';
+  color: darkgreen;
+}
+
+.demote {
+  font-weight: lighter;
+  font-family: 'Comic Sans MS';
+  color:crimson;
+}
+
+.delete {
+  float: right;
+  background-color: white;
+  border-color: blue;
+  border-style: dashed;
+  color: red;
+  font-weight: bolder;
+}
+
+.name {
+  font-weight: bolder;
+}
+
+.teacher {
+  background-color: beige;
+}
+
+.mentee {
+  background-color: aquamarine;
+}
+
+.unassigned {
+  background-color: lightgray;
 }
