@@ -3,7 +3,6 @@ const {
   models: { User },
 } = require('../db');
 
-//adding comment for submission for deadline commit
 /**
  * All of the routes in this are mounted on /api/users
  * For instance:

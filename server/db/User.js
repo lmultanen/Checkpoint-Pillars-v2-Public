@@ -4,7 +4,6 @@ const Sequelize = require('sequelize');
 const db = require('./db');
 const { Op } = require("sequelize");
 
-//adding comment for submission for deadline commit
 const User = db.define('user', {
   // Add your Sequelize fields here
   name: {
